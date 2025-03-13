@@ -3,34 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>财务业务合作伙伴 | 杨云浩个人简历</title>
-    <meta name="description" content="资深财务业务合作伙伴杨云浩个人简历网站，展示专业经验、分析能力和业务洞察">
+    <title data-translate="title">财务业务合作伙伴 | 杨云浩个人简历</title>
+    <meta name="description" data-translate="description" content="资深财务业务合作伙伴杨云浩个人简历网站，展示专业经验、分析能力和业务洞察">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"></script>
-    <!-- 在head标签中添加Chart.js DataLabels插件 -->
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
-    <!-- 在Chart初始化之前添加 -->
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <script src="js/translations.js"></script>
+    <script src="js/language-switcher.js"></script>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5GRZW28JER"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-5GRZW28JER');
+    </script>
 </head>
 <body class="has-sidebar">
     <!-- 侧边导航栏 -->
     <nav class="sidebar-nav">
-            <button class="sidebar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarNav">
-                <i class="bi bi-list"></i>
-            </button>
-        </div>
-        <div class="sidebar-content collapse d-md-block" id="sidebarNav">
-            <ul class="sidebar-nav-list">
-                <li class="sidebar-nav-item"><a class="sidebar-nav-link" href="#home"><i class="bi bi-house-door me-2"></i>首页</a></li>
-                <li class="sidebar-nav-item"><a class="sidebar-nav-link" href="#about"><i class="bi bi-person me-2"></i>关于我</a></li>
-                <li class="sidebar-nav-item"><a class="sidebar-nav-link" href="#experience"><i class="bi bi-briefcase me-2"></i>专业经验</a></li>
-                <li class="sidebar-nav-item"><a class="sidebar-nav-link" href="#skills"><i class="bi bi-bar-chart me-2"></i>专业技能</a></li>
-                <li class="sidebar-nav-item"><a class="sidebar-nav-link" href="#projects"><i class="bi bi-folder me-2"></i>项目案例</a></li>
-                <li class="sidebar-nav-item"><a class="sidebar-nav-link" href="#contact"><i class="bi bi-envelope me-2"></i>联系方式</a></li>
-            </ul>
-        </div>
+        <button class="sidebar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarNav">
+            <i class="bi bi-list"></i>
+        </button>
+    </div>
+    <div class="sidebar-content collapse d-md-block" id="sidebarNav">
+        <ul class="sidebar-nav-list">
+            <li class="sidebar-nav-item"><a class="sidebar-nav-link" href="#home"><i class="bi bi-house-door me-2"></i><span data-translate="home">首页</span></a></li>
+            <li class="sidebar-nav-item"><a class="sidebar-nav-link" href="#about"><i class="bi bi-person me-2"></i><span data-translate="about">关于我</span></a></li>
+            <li class="sidebar-nav-item"><a class="sidebar-nav-link" href="#experience"><i class="bi bi-briefcase me-2"></i><span data-translate="experience">专业经验</span></a></li>
+            <li class="sidebar-nav-item"><a class="sidebar-nav-link" href="#skills"><i class="bi bi-bar-chart me-2"></i><span data-translate="skills">专业技能</span></a></li>
+            <li class="sidebar-nav-item"><a class="sidebar-nav-link" href="#projects"><i class="bi bi-folder me-2"></i><span data-translate="projects">项目案例</span></a></li>
+            <li class="sidebar-nav-item"><a class="sidebar-nav-link" href="#contact"><i class="bi bi-envelope me-2"></i><span data-translate="contact">联系方式</span></a></li>
+        </ul>
+    </div>
     </nav>
     
     <!-- 主内容区 -->
@@ -41,13 +50,13 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <h1>杨云浩</h1>
-                    <h2>专业财务业务合作伙伴</h2>
-                    <p class="lead">擅长财务分析、业务决策支持与价值创造</p>
+                    <h1 data-translate="name">杨云浩</h1>
+                    <h2 data-translate="title">专业财务业务合作伙伴</h2>
+                    <p class="lead" data-translate="subtitle">擅长财务分析、业务决策支持与价值创造</p>
                     <div class="hero-btns mt-4">
-                        <a href="#contact" class="btn btn-primary me-3">联系我</a>
-                        <a href="#experience" class="btn btn-outline-primary me-3">查看经验</a>
-                        <a href="#projects" class="btn btn-outline-primary">数据分析</a>
+                        <a href="#contact" class="btn btn-primary me-3" data-translate="contactMe">联系我</a>
+                        <a href="#experience" class="btn btn-outline-primary me-3" data-translate="viewExperience">查看经验</a>
+                        <a href="#projects" class="btn btn-outline-primary" data-translate="dataAnalysis">数据分析</a>
                     </div>
                 </div>
                         </div>
@@ -61,28 +70,28 @@
     <section id="about" class="section-padding">
         <div class="container about-container">
             <div class="section-title text-center mb-5">
-                <h2>关于我</h2>
+                <h2 data-translate="aboutTitle">关于我</h2>
                 <div class="underline"></div>
             </div>
             <div class="about-row">
                 <div class="about-column">
                     <div class="about-content">
-                        <p>我是一名拥有<span class="about-highlight">双学位背景（会计与金融）</span>的财务背景数据分析专业人士。将全球视角的财务分析与深刻的业务洞察相结合，帮助企业实现可持续增长和价值创造。</p>
+                        <p data-translate="aboutDescription1">我是一名拥有<span class="about-highlight">双学位背景（会计与金融）</span>的财务背景数据分析专业人士。将全球视角的财务分析与深刻的业务洞察相结合，帮助企业实现可持续增长和价值创造。</p>
                         
                         <div class="about-section-divider"></div>
                         
-                        <p>在职业生涯中专注于<span class="about-highlight">业财数据整合</span>与<span class="about-highlight">业务战略支持</span>，通过深入分析和优化业财政策，为企业提供有效的决策支持。擅长利用数据分析工具进行多维度财务分析，并具备良好的跨部门协作经验及团队管理能力。</p>
+                        <p data-translate="aboutDescription2">在职业生涯中专注于<span class="about-highlight">业财数据整合</span>与<span class="about-highlight">业务战略支持</span>，通过深入分析和优化业财政策，为企业提供有效的决策支持。擅长利用数据分析工具进行多维度财务分析，并具备良好的跨部门协作经验及团队管理能力。</p>
                         
                         <div class="personal-info">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <p><strong>学历</strong> 美国爱荷华州立大学</p>
-                                    <p><strong>专业</strong> 金融 & 会计本科双学位</p>
-                                    <p><strong>专长</strong> 业财数据分析、业务决策支持</p>
+                                    <p><strong data-translate="education">学历</strong> <span data-translate="educationValue">美国爱荷华州立大学</span></p>
+                                    <p><strong data-translate="major">专业</strong> <span data-translate="majorValue">金融 & 会计本科双学位</span></p>
+                                    <p><strong data-translate="expertise">专长</strong> <span data-translate="expertiseValue">业财数据分析、业务决策支持</span></p>
                                 </div>
                                 <div class="col-md-6">
-                                    <p><strong>证书</strong> 全美会计荣誉协会成员、IRS税务培训认证</p>
-                                    <p><strong>所在地</strong> 深圳</p>
+                                    <p><strong data-translate="certificates">证书</strong> <span data-translate="certificatesValue">全美会计荣誉协会成员、IRS税务培训认证</span></p>
+                                    <p><strong data-translate="location">所在地</strong> <span data-translate="locationValue">深圳</span></p>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +99,7 @@
                 </div>
                 <div class="about-column">
                     <div class="finance-metrics-card">
-                        <h3 class="mb-4">核心成就指标</h3>
+                        <h3 class="mb-4" data-translate="coreMetrics">核心成就指标</h3>
                         <div class="metrics-container">
                             <div class="metric-item">
                                 <div class="metric-icon">
@@ -98,7 +107,7 @@
                                 </div>
                                 <div class="metric-content">
                                     <h4>1000万+</h4>
-                                    <p>业务线扭亏为盈</p>
+                                    <p data-translate="businessTurnaround">业务线扭亏为盈</p>
                                 </div>
                             </div>
                             <div class="metric-item">
@@ -107,7 +116,7 @@
                                 </div>
                                 <div class="metric-content">
                                     <h4>20%+</h4>
-                                    <p>提升资源利用效率</p>
+                                    <p data-translate="resourceEfficiency">提升资源利用效率</p>
                                 </div>
                             </div>
                             <div class="metric-item">
@@ -116,7 +125,7 @@
                                 </div>
                                 <div class="metric-content">
                                     <h4>&lt;0.5%</h4>
-                                    <p>年应收率管理</p>
+                                    <p data-translate="receivablesManagement">年应收率管理</p>
                                 </div>
                             </div>
                             <div class="metric-item">
@@ -125,7 +134,7 @@
                                 </div>
                                 <div class="metric-content">
                                     <h4>30+</h4>
-                                    <p>业务盈利性改造</p>
+                                    <p data-translate="businessTransformation">业务盈利性改造</p>
                                 </div>
                             </div>
                         </div>
@@ -133,15 +142,15 @@
                     
                     <!-- 语言能力专区 移到右侧 -->
                     <div class="language-skills-section">
-                        <h4 class="lang-section-title">语言能力</h4>
+                        <h4 class="lang-section-title" data-translate="languageSkills">语言能力</h4>
                         <div class="language-cards-row">
                             <div class="language-card-column">
                                 <div class="language-card">
                                     <div class="language-icon">
                                         <i class="bi bi-translate"></i>
                                     </div>
-                                    <h5>中文</h5>
-                                    <div class="language-level">母语</div>
+                                    <h5 data-translate="chinese">中文</h5>
+                                    <div class="language-level" data-translate="nativeLanguage">母语</div>
                                     <div class="language-progress">
                                         <div class="language-progress-bar" style="width: 100%"></div>
                                     </div>
@@ -152,8 +161,8 @@
                                     <div class="language-icon">
                                         <i class="bi bi-globe2"></i>
                                     </div>
-                                    <h5>英语</h5>
-                                    <div class="language-level">流利商务沟通</div>
+                                    <h5 data-translate="english">英语</h5>
+                                    <div class="language-level" data-translate="businessFluent">流利商务沟通</div>
                                     <div class="language-progress">
                                         <div class="language-progress-bar" style="width: 90%"></div>
                                     </div>
@@ -164,8 +173,8 @@
                                     <div class="language-icon">
                                         <i class="bi bi-chat-dots"></i>
                                     </div>
-                                    <h5>粤语</h5>
-                                    <div class="language-level">流利</div>
+                                    <h5 data-translate="cantonese">粤语</h5>
+                                    <div class="language-level" data-translate="fluentCantonese">流利</div>
                                     <div class="language-progress">
                                         <div class="language-progress-bar" style="width: 95%"></div>
                                     </div>
@@ -182,46 +191,46 @@
     <section id="experience" class="section-padding bg-light">
         <div class="container">
             <div class="section-title text-center mb-5">
-                <h2>专业经验</h2>
+                <h2 data-translate="experienceTitle">专业经验</h2>
                 <div class="underline"></div>
             </div>
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <h3>财务派驻主管</h3>
-                        <h4>中国人民财产保险股份有限公司深圳市分公司</h4>
-                        <span class="period">2017年3月 - 至今</span>
+                        <h3 data-translate="job1Title">财务派驻主管</h3>
+                        <h4 data-translate="job1Company">中国人民财产保险股份有限公司深圳市分公司</h4>
+                        <span class="period" data-translate="job1Date">2017年3月 - 至今</span>
                         <ul>
-                            <li>研究总分公司的政策，制定本地化政策并推动跨部门执行，沟通重大事项</li>
-                            <li>分解经营目标至业务团队，动态监控核心指标，通过多维数据分析提出改善建议</li>
-                            <li>结合业财数据专题研究亏损险种，优化不良业务线，实现扭亏为盈，连续2年盈利超1000万元</li>
-                            <li>建立"预算规划→费用监控→动态调整"三阶段费用管理体系，提升资源使用效率20%以上</li>
-                            <li>引导业务费用精准投放，确保资源配置与业务发展匹配，控制成本同时提高业务效益</li>
+                            <li data-translate="job1Description1">研究总分公司的政策，制定本地化政策并推动跨部门执行，沟通重大事项</li>
+                            <li data-translate="job1Description2">分解经营目标至业务团队，动态监控核心指标，通过多维数据分析提出改善建议</li>
+                            <li data-translate="job1Description3">结合业财数据专题研究亏损险种，优化不良业务线，实现扭亏为盈，连续2年盈利超1000万元</li>
+                            <li data-translate="job1Description4">建立"预算规划→费用监控→动态调整"三阶段费用管理体系，提升资源使用效率20%以上</li>
+                            <li data-translate="job1Description5">引导业务费用精准投放，确保资源配置与业务发展匹配，控制成本同时提高业务效益</li>
                         </ul>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <h3>管理财务分析</h3>
-                        <h4>中国人民财产保险股份有限公司深圳市分公司</h4>
-                        <span class="period">2016年 - 2017年3月</span>
+                        <h3 data-translate="job2Title">管理财务分析</h3>
+                        <h4 data-translate="job2Company">中国人民财产保险股份有限公司深圳市分公司</h4>
+                        <span class="period" data-translate="job2Date">2016年 - 2017年3月</span>
                         <ul>
-                            <li>跟踪分析产品线经营数据，结合业务场景提出建议</li>
-                            <li>支持"营改增"进项税模块改造：重新制定供应商标准并主导全公司培训</li>
-                            <li>完成年度预算编制及监控产品线和下属公司经营情况</li>
-                            <li>优化财务流程以提高指标达成率</li>
-                            <li>监控销售费用预算执行情况并完成固定资产投资审核</li>
+                            <li data-translate="job2Description1">跟踪分析产品线经营数据，结合业务场景提出建议</li>
+                            <li data-translate="job2Description2">支持"营改增"进项税模块改造：重新制定供应商标准并主导全公司培训</li>
+                            <li data-translate="job2Description3">完成年度预算编制及监控产品线和下属公司经营情况</li>
+                            <li data-translate="job2Description4">优化财务流程以提高指标达成率</li>
+                            <li data-translate="job2Description5">监控销售费用预算执行情况并完成固定资产投资审核</li>
                         </ul>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <h3>美国义务报税项目（VITA）</h3>
-                        <h4>项目组长</h4>
-                        <span class="period">2014年1月 - 2014年5月</span>
+                        <h3 data-translate="job3Title">美国义务报税项目（VITA）</h3>
+                        <h4 data-translate="job3Company">项目组长</h4>
+                        <span class="period" data-translate="job3Date">2014年1月 - 2014年5月</span>
                         <ul>
-                            <li>协调团队为300名低收入家庭提供免费税务服务（IRS Form 1040）</li>
-                            <li>完成抵扣项政策解读，协助申报人完成抵扣及扣除项申报</li>
+                            <li data-translate="job3Description1">协调团队为300名低收入家庭提供免费税务服务（IRS Form 1040）</li>
+                            <li data-translate="job3Description2">完成抵扣项政策解读，协助申报人完成抵扣及扣除项申报</li>
                         </ul>
                     </div>
                 </div>
@@ -233,16 +242,16 @@
     <section id="skills" class="section-padding">
         <div class="container">
             <div class="section-title text-center mb-5">
-                <h2>专业技能</h2>
+                <h2 data-translate="skillsTitle">专业技能</h2>
                 <div class="underline"></div>
             </div>
             <div class="row">
                 <div class="col-lg-6 mb-4">
                     <div class="skills-card">
-                        <h3>财务技能</h3>
+                        <h3 data-translate="financialSkills">财务技能</h3>
                         <div class="skill-item">
                             <div class="skill-info">
-                                <p>全球视角财务分析（GAAP/IFRS标准）</p>
+                                <p data-translate="globalFinancialAnalysis">全球视角财务分析（GAAP/IFRS标准）</p>
                                 <p>95%</p>
                             </div>
                             <div class="progress">
@@ -251,7 +260,7 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-info">
-                                <p>业财数据整合</p>
+                                <p data-translate="businessFinanceIntegration">业财数据整合</p>
                                 <p>95%</p>
                             </div>
                             <div class="progress">
@@ -260,7 +269,7 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-info">
-                                <p>业务绩效分析</p>
+                                <p data-translate="performanceAnalysis">业务绩效分析</p>
                                 <p>90%</p>
                             </div>
                             <div class="progress">
@@ -269,7 +278,7 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-info">
-                                <p>风险管理</p>
+                                <p data-translate="riskManagement">风险管理</p>
                                 <p>90%</p>
                             </div>
                             <div class="progress">
@@ -278,7 +287,7 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-info">
-                                <p>成本管理优化</p>
+                                <p data-translate="budgetManagement">成本管理优化</p>
                                 <p>95%</p>
                             </div>
                             <div class="progress">
@@ -289,10 +298,10 @@
                 </div>
                 <div class="col-lg-6 mb-4">
                     <div class="skills-card">
-                        <h3>技术与软件</h3>
+                        <h3 data-translate="dataSkills">技术与软件</h3>
                         <div class="skill-item">
                             <div class="skill-info">
-                                <p>Excel高级函数（VLOOKUP, INDEX-MATCH）</p>
+                                <p data-translate="excel">Excel高级函数（VLOOKUP, INDEX-MATCH）</p>
                                 <p>99%</p>
                             </div>
                             <div class="progress">
@@ -301,7 +310,7 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-info">
-                                <p>Python (Pandas, NumPy)</p>
+                                <p data-translate="pythonDataAnalysis">Python (Pandas, NumPy)</p>
                                 <p>80%</p>
                             </div>
                             <div class="progress">
@@ -310,7 +319,7 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-info">
-                                <p>Power Query/Pivot</p>
+                                <p data-translate="dataVisualization">Power Query/Pivot</p>
                                 <p>80%</p>
                             </div>
                             <div class="progress">
@@ -319,7 +328,7 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-info">
-                                <p>SAP系统</p>
+                                <p data-translate="sapSystem">SAP系统</p>
                                 <p>80%</p>
                             </div>
                             <div class="progress">
@@ -328,7 +337,7 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-info">
-                                <p>商业统计分析</p>
+                                <p data-translate="statisticalAnalysis">商业统计分析</p>
                                 <p>95%</p>
                             </div>
                             <div class="progress">
@@ -339,42 +348,42 @@
                 </div>
                 <div class="col-12">
                     <div class="skills-card">
-                        <h3>商业技能</h3>
+                        <h3 data-translate="businessSkills">商业技能</h3>
                         <div class="row">
                             <div class="col-md-4 mb-3">
                                 <div class="skill-badge">
                                     <i class="bi bi-people-fill"></i>
-                                    <span>跨部门协作经验</span>
+                                    <span data-translate="crossDepartmental">跨部门协作经验</span>
                                 </div>
                             </div>
                             <div class="col-md-4 mb-3">
                                 <div class="skill-badge">
                                     <i class="bi bi-bar-chart-fill"></i>
-                                    <span>战略规划与执行</span>
+                                    <span data-translate="strategicPlanning">战略规划与执行</span>
                                 </div>
                             </div>
                             <div class="col-md-4 mb-3">
                                 <div class="skill-badge">
                                     <i class="bi bi-megaphone-fill"></i>
-                                    <span>财务沟通与汇报</span>
+                                    <span data-translate="financialCommunication">财务沟通与汇报</span>
                                 </div>
                             </div>
                             <div class="col-md-4 mb-3">
                                 <div class="skill-badge">
                                     <i class="bi bi-graph-up"></i>
-                                    <span>风险评估与管理</span>
+                                    <span data-translate="riskAssessment">风险评估与管理</span>
                                 </div>
                             </div>
                             <div class="col-md-4 mb-3">
                                 <div class="skill-badge">
                                     <i class="bi bi-pie-chart-fill"></i>
-                                    <span>业财战略优化</span>
+                                    <span data-translate="strategyOptimization">业财战略优化</span>
                                 </div>
                             </div>
                             <div class="col-md-4 mb-3">
                                 <div class="skill-badge">
                                     <i class="bi bi-briefcase-fill"></i>
-                                    <span>数据分析与展示</span>
+                                    <span data-translate="dataAnalysisDisplay">数据分析与展示</span>
                                 </div>
                             </div>
                         </div>
@@ -388,30 +397,30 @@
     <section id="projects" class="section-padding bg-light">
         <div class="container">
             <div class="section-title text-center mb-5">
-                <h2>项目案例</h2>
+                <h2 data-translate="projectsTitle">项目案例</h2>
                 <div class="underline"></div>
             </div>
             <div class="row">
                 <div class="col-md-6 mb-4">
                     <div class="project-card">
                         <div class="project-header">
-                            <h3>业务线优化与盈利转型项目</h3>
-                            <span class="project-badge">中国人民财产保险</span>
+                            <h3 data-translate="project1Title">业务线优化与盈利转型项目</h3>
+                            <span class="project-badge" data-translate="project1Company">中国人民财产保险</span>
                         </div>
                         <div class="project-body">
-                            <p>通过深入分析业务数据，识别亏损原因并制定优化方案，重构业务和风险管控体系，实现业务线及单位从亏损到盈利的转型。</p>
+                            <p data-translate="project1Description">通过深入分析业务数据，识别亏损原因并制定优化方案，重构业务和风险管控体系，实现业务线及单位从亏损到盈利的转型。</p>
                             <div class="project-stats">
                                 <div class="stat-item">
                                     <span class="stat-value">+1000万</span>
-                                    <span class="stat-label">年度盈利</span>
+                                    <span class="stat-label" data-translate="annualProfit">年度盈利</span>
                                 </div>
                                 <div class="stat-item">
                                     <span class="stat-value">2年</span>
-                                    <span class="stat-label">连续盈利</span>
+                                    <span class="stat-label" data-translate="consecutiveProfit">连续盈利</span>
                                 </div>
                                 <div class="stat-item">
                                     <span class="stat-value">6月</span>
-                                    <span class="stat-label">实施周期</span>
+                                    <span class="stat-label" data-translate="implementationPeriod">项目周期</span>
                                 </div>
                             </div>
                         </div>
@@ -420,23 +429,23 @@
                 <div class="col-md-6 mb-4">
                     <div class="project-card">
                         <div class="project-header">
-                            <h3>三阶段费用管理体系设计</h3>
-                            <span class="project-badge">中国人民财产保险</span>
+                            <h3 data-translate="project2Title">三阶段费用管理体系设计</h3>
+                            <span class="project-badge" data-translate="project2Company">中国人民财产保险</span>
                         </div>
                         <div class="project-body">
-                            <p>建立"预算规划→费用监控→动态调整"三阶段费用管理体系，建立精细化费用管理流程，优化资源分配效率。</p>
+                            <p data-translate="project2Description">建立"预算规划→费用监控→动态调整"三阶段费用管理体系，建立精细化费用管理流程，优化资源分配效率。</p>
                             <div class="project-stats">
                                 <div class="stat-item">
                                     <span class="stat-value">+30%</span>
-                                    <span class="stat-label">资源效率</span>
+                                    <span class="stat-label" data-translate="resourceEfficiencyMetric">资源效率</span>
                                 </div>
                                 <div class="stat-item">
                                     <span class="stat-value">-20%</span>
-                                    <span class="stat-label">冗余支出</span>
+                                    <span class="stat-label" data-translate="redundantExpenditure">冗余支出</span>
                                 </div>
                                 <div class="stat-item">
                                     <span class="stat-value">6月</span>
-                                    <span class="stat-label">实施周期</span>
+                                    <span class="stat-label" data-translate="implementationPeriod">项目周期</span>
                                 </div>
                             </div>
                         </div>
@@ -445,23 +454,23 @@
                 <div class="col-md-6 mb-4">
                     <div class="project-card">
                         <div class="project-header">
-                            <h3>"营改增"进项税模块改造</h3>
-                            <span class="project-badge">中国人民财产保险</span>
+                            <h3 data-translate="project3Title">数据可视化决策系统</h3>
+                            <span class="project-badge" data-translate="project3Company">中国人民财产保险</span>
                         </div>
                         <div class="project-body">
-                            <p>支持"营改增"税务政策转型，重新制定供应商标准，优化进项税抵扣流程，并主导全公司培训，确保合规性和税务优化。</p>
+                            <p data-translate="project3Description">搭建经营数据可视化决策分析系统，整合多源数据，建立二十多个分析模型，为领导层提供直观的数据洞察和决策支持。</p>
                             <div class="project-stats">
                                 <div class="stat-item">
-                                    <span class="stat-value">100%</span>
-                                    <span class="stat-label">合规率</span>
+                                    <span class="stat-value">20+</span>
+                                    <span class="stat-label" data-translate="analyticalModels">分析模型</span>
                                 </div>
                                 <div class="stat-item">
-                                    <span class="stat-value">+15%</span>
-                                    <span class="stat-label">抵扣效率</span>
+                                    <span class="stat-value">+25%</span>
+                                    <span class="stat-label" data-translate="decisionEfficiency">决策效率</span>
                                 </div>
                                 <div class="stat-item">
-                                    <span class="stat-value">3月</span>
-                                    <span class="stat-label">实施周期</span>
+                                    <span class="stat-value">8月</span>
+                                    <span class="stat-label" data-translate="implementationPeriod">项目周期</span>
                                 </div>
                             </div>
                         </div>
@@ -470,23 +479,23 @@
                 <div class="col-md-6 mb-4">
                     <div class="project-card">
                         <div class="project-header">
-                            <h3>美国义务报税项目（VITA）</h3>
-                            <span class="project-badge">项目组长</span>
+                            <h3 data-translate="project4Title">美国义务报税项目（VITA）</h3>
+                            <span class="project-badge" data-translate="project4Company">项目组长</span>
                         </div>
                         <div class="project-body">
-                            <p>协调志愿者团队为低收入家庭提供免费税务服务，解读抵免及扣除项解读，提高服务效率和准确性。</p>
+                            <p data-translate="project4Description">协调志愿者团队为低收入家庭提供免费税务服务，解读抵免及扣除项解读，提高服务效率和准确性。</p>
                             <div class="project-stats">
                                 <div class="stat-item">
                                     <span class="stat-value">300+</span>
-                                    <span class="stat-label">服务家庭</span>
+                                    <span class="stat-label" data-translate="familiesServed">服务家庭</span>
                                 </div>
                                 <div class="stat-item">
-                                    <span class="stat-value">+20%</span>
-                                    <span class="stat-label">抵扣效益</span>
+                                    <span class="stat-value">98%</span>
+                                    <span class="stat-label" data-translate="approvalRate">通过率</span>
                                 </div>
                                 <div class="stat-item">
-                                    <span class="stat-value">5月</span>
-                                    <span class="stat-label">项目周期</span>
+                                    <span class="stat-value">6月</span>
+                                    <span class="stat-label" data-translate="implementationPeriod">项目周期</span>
                                 </div>
                             </div>
                         </div>
@@ -993,10 +1002,6 @@
                                 <button class="btn btn-sm btn-outline-secondary" data-period="personal">个人客户</button>
                                 <button class="btn btn-sm btn-outline-secondary" data-period="corporate">企业客户</button>
                             </div>
-                            <div class="btn-group btn-group-sm ms-2">
-                                <button class="btn btn-sm btn-outline-primary" data-timespan="year">年度分析</button>
-                                <button class="btn btn-sm btn-outline-primary active" data-timespan="quarter">季度分析</button>
-                            </div>
                         </div>
                         <div class="chart-info">
                             <span class="badge bg-light text-dark">
@@ -1036,7 +1041,13 @@
                     
                     <div class="col-lg-4">
                         <div class="insurance-metrics-container">
-                            <h5 class="text-center mb-3">保险指标分析</h5>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h5 class="mb-0">保险指标分析</h5>
+                                <div class="btn-group btn-group-sm">
+                                    <button class="btn btn-sm btn-outline-primary" data-timespan="year">年度分析</button>
+                                    <button class="btn btn-sm btn-outline-primary active" data-timespan="quarter">季度分析</button>
+                                </div>
+                            </div>
                             
                             <!-- 保费回报率分析 -->
                             <div class="metric-item mb-3">
@@ -3433,6 +3444,22 @@
         
         // 更新指标面板为年度/季度数据
         function updateMetricsForTimespan(timespan) {
+            // 更新趋势分析标题 - 使用更精确的选择器
+            const trendTitles = document.querySelectorAll('.metric-item h6');
+            trendTitles.forEach(title => {
+                if (title.textContent.includes('趋势分析')) {
+                    title.textContent = timespan === 'year' ? '年度趋势分析' : '季度趋势分析';
+                }
+            });
+            
+            // 更新表头的"季度"列标题为"年度"或"季度"
+            const tableHeaders = document.querySelectorAll('.metric-item table thead th');
+            tableHeaders.forEach(header => {
+                if (header.textContent === '季度' || header.textContent === '年度') {
+                    header.textContent = timespan === 'year' ? '年度' : '季度';
+                }
+            });
+            
             const tableRows = document.querySelectorAll('.metric-item table tbody tr');
             
             if (timespan === 'year') {
